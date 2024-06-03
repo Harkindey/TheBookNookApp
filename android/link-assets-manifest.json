@@ -1,0 +1,17 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/MatterSQ-Light.ttf",
+      "sha1": "28a1350624c5eb3e953523fa4944c1426eff6773"
+    },
+    {
+      "path": "src/assets/fonts/MatterSQ-Medium.ttf",
+      "sha1": "8ae3ada78b350e16903f4024e166a8147c23964b"
+    },
+    {
+      "path": "src/assets/fonts/MatterSQ-SemiBold.ttf",
+      "sha1": "9c1423ac6d1dc0d04e7a712a42cf6ffd7d1e9a09"
+    }
+  ]
+}

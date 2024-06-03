@@ -46,34 +46,24 @@ If everything is set up _correctly_, you should see your new app running in your
 
 This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
 
-## Step 3: Modifying your App
+#  App Description
+This is a basic app for a user to Browse product inventory, view product details, add product to cart and checkout.
 
-Now that you have successfully run the app, let's modify it.
+Api Used - (https://dummyjson.com/docs/products).
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+## Import Libraries used
+- React Navigation for Naviation
+- Redux-Toolkit (RTK) for State
+- React Native Reanimated for Animation
+- React Native Svg for Icons
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+The decision to use these libraries are more of what im used to and can properly used too.
+I was going to use the RTK Query for its caching abilities but i thought so the app can be refreshed easily
+(if the app was to grow that would be considered)
 
-## Congratulations! :tada:
+## Missing Part
+ Testing is greaterly missing from the app, due to some environment issues I faced, It's the major reason for my delay in submission
 
-You've successfully run and modified your React Native App. :partying_face:
+## Directions
+ Really Tried my best to keep things very simple so anyone can read through the code and extend it.
 
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
