@@ -57,13 +57,13 @@ Api Used - (https://dummyjson.com/docs/products).
 - React Native Reanimated for Animation
 - React Native Svg for Icons
 
-The decision to use these libraries are more of what im used to and can properly used too.
-I was going to use the RTK Query for its caching abilities but i thought so the app can be refreshed easily
-(if the app was to grow that would be considered)
+The decision to use these libraries are more of what i'm used to and can properly use.
+I was going to use the RTK Query for its caching abilities but i thought against it so that the app can be refreshed easily.
+(if the app was to grow that would be considered, {RTK Query})
 
 ## Missing Part
- Testing is greaterly missing from the app, due to some environment issues I faced, It's the major reason for my delay in submission
+ Testing is greatly missing from the app, due to some environment issues I faced, It's the major reason for my delayed submission
 
 ## Directions
- Really Tried my best to keep things very simple so anyone can read through the code and extend it.
+ Really tried my best to keep things very simple so anyone can read through the code and extend it.
 
