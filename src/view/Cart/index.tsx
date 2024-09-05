@@ -15,7 +15,7 @@ const Cart: FC<AppStackScreenProps<'Cart'>> = ({ navigation }) => {
 
   const total = useMemo(() => {
     const subtotal = objectValues(cart).reduce((sum, currentProduct) => {
-      return (sum = sum + currentProduct.price * currentProduct.quantity);
+      return sum + currentProduct.price * currentProduct.quantity;
     }, 0);
     return subtotal.toFixed(2);
   }, [cart]);
