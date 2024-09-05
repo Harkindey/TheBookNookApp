@@ -26,7 +26,7 @@ const americanahUrl = require('src/assets/images/americanah.jpg');
 const DetailsPage: FC<AppStackScreenProps<'DetailsPage'>> = ({ route }) => {
   let cartRef = createRef<ControlsViaRefApi>();
   const dispatch = useAppDispatch();
-  const [cartQuantity, setcartQuantity] = useState(1);
+  const [cartQuantity, setCartQuantity] = useState(1);
   const id = route.params.id;
 
   const product = useAppSelector(state => selectProductsById(state, id));
@@ -71,7 +71,7 @@ const DetailsPage: FC<AppStackScreenProps<'DetailsPage'>> = ({ route }) => {
 
             <CartCounter
               count={cartQuantity}
-              onChange={(num: number) => setcartQuantity(num)}
+              onChange={(num: number) => setCartQuantity(num)}
             />
           </View>
           <View style={{ marginTop: 20 }}>
